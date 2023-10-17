@@ -1,0 +1,12 @@
+/Users/enesesen/Desktop/CAP/CAP.Core/bin/Debug/net6.0/CAP.Core.deps.json
+/Users/enesesen/Desktop/CAP/CAP.Core/bin/Debug/net6.0/CAP.Core.dll
+/Users/enesesen/Desktop/CAP/CAP.Core/bin/Debug/net6.0/CAP.Core.pdb
+/Users/enesesen/Desktop/CAP/CAP.Core/obj/Debug/net6.0/CAP.Core.csproj.AssemblyReference.cache
+/Users/enesesen/Desktop/CAP/CAP.Core/obj/Debug/net6.0/CAP.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/enesesen/Desktop/CAP/CAP.Core/obj/Debug/net6.0/CAP.Core.AssemblyInfoInputs.cache
+/Users/enesesen/Desktop/CAP/CAP.Core/obj/Debug/net6.0/CAP.Core.AssemblyInfo.cs
+/Users/enesesen/Desktop/CAP/CAP.Core/obj/Debug/net6.0/CAP.Core.csproj.CoreCompileInputs.cache
+/Users/enesesen/Desktop/CAP/CAP.Core/obj/Debug/net6.0/CAP.Core.dll
+/Users/enesesen/Desktop/CAP/CAP.Core/obj/Debug/net6.0/refint/CAP.Core.dll
+/Users/enesesen/Desktop/CAP/CAP.Core/obj/Debug/net6.0/CAP.Core.pdb
+/Users/enesesen/Desktop/CAP/CAP.Core/obj/Debug/net6.0/ref/CAP.Core.dll

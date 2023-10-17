@@ -1,0 +1,15 @@
+/Users/enesesen/Desktop/CAP/CAP.Entity/bin/Debug/net6.0/CAP.Entity.deps.json
+/Users/enesesen/Desktop/CAP/CAP.Entity/bin/Debug/net6.0/CAP.Entity.dll
+/Users/enesesen/Desktop/CAP/CAP.Entity/bin/Debug/net6.0/CAP.Entity.pdb
+/Users/enesesen/Desktop/CAP/CAP.Entity/bin/Debug/net6.0/CAP.Core.dll
+/Users/enesesen/Desktop/CAP/CAP.Entity/bin/Debug/net6.0/CAP.Core.pdb
+/Users/enesesen/Desktop/CAP/CAP.Entity/obj/Debug/net6.0/CAP.Entity.csproj.AssemblyReference.cache
+/Users/enesesen/Desktop/CAP/CAP.Entity/obj/Debug/net6.0/CAP.Entity.GeneratedMSBuildEditorConfig.editorconfig
+/Users/enesesen/Desktop/CAP/CAP.Entity/obj/Debug/net6.0/CAP.Entity.AssemblyInfoInputs.cache
+/Users/enesesen/Desktop/CAP/CAP.Entity/obj/Debug/net6.0/CAP.Entity.AssemblyInfo.cs
+/Users/enesesen/Desktop/CAP/CAP.Entity/obj/Debug/net6.0/CAP.Entity.csproj.CoreCompileInputs.cache
+/Users/enesesen/Desktop/CAP/CAP.Entity/obj/Debug/net6.0/CAP.Entity.csproj.CopyComplete
+/Users/enesesen/Desktop/CAP/CAP.Entity/obj/Debug/net6.0/CAP.Entity.dll
+/Users/enesesen/Desktop/CAP/CAP.Entity/obj/Debug/net6.0/refint/CAP.Entity.dll
+/Users/enesesen/Desktop/CAP/CAP.Entity/obj/Debug/net6.0/CAP.Entity.pdb
+/Users/enesesen/Desktop/CAP/CAP.Entity/obj/Debug/net6.0/ref/CAP.Entity.dll

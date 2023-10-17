@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "CAP.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CAP.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CAP.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CAP.Core/1.0.0": {
+      "type": "project",
+      "path": "../CAP.Core/CAP.Core.csproj",
+      "msbuildProject": "../CAP.Core/CAP.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "CAP.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/enesesen/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/enesesen/Desktop/CAP/CAP.Entity/CAP.Entity.csproj",
+      "projectName": "CAP.Entity",
+      "projectPath": "/Users/enesesen/Desktop/CAP/CAP.Entity/CAP.Entity.csproj",
+      "packagesPath": "/Users/enesesen/.nuget/packages/",
+      "outputPath": "/Users/enesesen/Desktop/CAP/CAP.Entity/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/enesesen/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/enesesen/Desktop/CAP/CAP.Core/CAP.Core.csproj": {
+              "projectPath": "/Users/enesesen/Desktop/CAP/CAP.Core/CAP.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
