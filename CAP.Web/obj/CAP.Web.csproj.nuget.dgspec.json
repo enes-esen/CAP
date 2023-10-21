@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/enesesen/Desktop/CAP/CAP.Web/CAP.Web.csproj": {}
+    "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.WEB\\CAP.WEB.csproj": {}
   },
   "projects": {
-    "/Users/enesesen/Desktop/CAP/CAP.Core/CAP.Core.csproj": {
+    "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Core\\CAP.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enesesen/Desktop/CAP/CAP.Core/CAP.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Core\\CAP.Core.csproj",
         "projectName": "CAP.Core",
-        "projectPath": "/Users/enesesen/Desktop/CAP/CAP.Core/CAP.Core.csproj",
-        "packagesPath": "/Users/enesesen/.nuget/packages/",
-        "outputPath": "/Users/enesesen/Desktop/CAP/CAP.Core/obj/",
+        "projectPath": "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Core\\CAP.Core.csproj",
+        "packagesPath": "C:\\Users\\Enes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/enesesen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,34 +55,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/enesesen/Desktop/CAP/CAP.Data/CAP.Data.csproj": {
+    "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Data\\CAP.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enesesen/Desktop/CAP/CAP.Data/CAP.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Data\\CAP.Data.csproj",
         "projectName": "CAP.Data",
-        "projectPath": "/Users/enesesen/Desktop/CAP/CAP.Data/CAP.Data.csproj",
-        "packagesPath": "/Users/enesesen/.nuget/packages/",
-        "outputPath": "/Users/enesesen/Desktop/CAP/CAP.Data/obj/",
+        "projectPath": "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Data\\CAP.Data.csproj",
+        "packagesPath": "C:\\Users\\Enes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/enesesen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/enesesen/Desktop/CAP/CAP.Entity/CAP.Entity.csproj": {
-                "projectPath": "/Users/enesesen/Desktop/CAP/CAP.Entity/CAP.Entity.csproj"
+              "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Entity\\CAP.Entity.csproj": {
+                "projectPath": "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Entity\\CAP.Entity.csproj"
               }
             }
           }
@@ -97,23 +101,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.23, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.23, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.23, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.23, )"
             }
           },
           "imports": [
@@ -132,34 +136,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/enesesen/Desktop/CAP/CAP.Entity/CAP.Entity.csproj": {
+    "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Entity\\CAP.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enesesen/Desktop/CAP/CAP.Entity/CAP.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Entity\\CAP.Entity.csproj",
         "projectName": "CAP.Entity",
-        "projectPath": "/Users/enesesen/Desktop/CAP/CAP.Entity/CAP.Entity.csproj",
-        "packagesPath": "/Users/enesesen/.nuget/packages/",
-        "outputPath": "/Users/enesesen/Desktop/CAP/CAP.Entity/obj/",
+        "projectPath": "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Entity\\CAP.Entity.csproj",
+        "packagesPath": "C:\\Users\\Enes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/enesesen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/enesesen/Desktop/CAP/CAP.Core/CAP.Core.csproj": {
-                "projectPath": "/Users/enesesen/Desktop/CAP/CAP.Core/CAP.Core.csproj"
+              "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Core\\CAP.Core.csproj": {
+                "projectPath": "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Core\\CAP.Core.csproj"
               }
             }
           }
@@ -189,35 +195,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/enesesen/Desktop/CAP/CAP.Web/CAP.Web.csproj": {
+    "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.WEB\\CAP.WEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enesesen/Desktop/CAP/CAP.Web/CAP.Web.csproj",
-        "projectName": "CAP.Web",
-        "projectPath": "/Users/enesesen/Desktop/CAP/CAP.Web/CAP.Web.csproj",
-        "packagesPath": "/Users/enesesen/.nuget/packages/",
-        "outputPath": "/Users/enesesen/Desktop/CAP/CAP.Web/obj/",
+        "projectUniqueName": "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.WEB\\CAP.WEB.csproj",
+        "projectName": "CAP.WEB",
+        "projectPath": "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.WEB\\CAP.WEB.csproj",
+        "packagesPath": "C:\\Users\\Enes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.WEB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/enesesen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/enesesen/Desktop/CAP/CAP.Data/CAP.Data.csproj": {
-                "projectPath": "/Users/enesesen/Desktop/CAP/CAP.Data/CAP.Data.csproj"
+              "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Data\\CAP.Data.csproj": {
+                "projectPath": "C:\\Users\\Enes\\Desktop\\PROJECTS\\CAP\\CAP.Data\\CAP.Data.csproj"
               }
             }
           }
@@ -232,25 +239,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.23, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.23, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.23, )"
             }
           },
           "imports": [
@@ -272,7 +275,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

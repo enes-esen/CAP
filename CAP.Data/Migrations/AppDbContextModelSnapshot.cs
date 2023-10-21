@@ -104,7 +104,7 @@ namespace CAP.Data.Migrations
                     b.HasData(
                         new
                         {
-                            ID = new Guid("988c2d42-05c6-417e-bd3d-80290ea5240d"),
+                            ID = new Guid("7081cc4a-53fc-47ff-8d5b-c74a75bee795"),
                             STATUSS = true,
                             VKN = 11111111111L,
                             tp_address_id = new Guid("c12cef77-cb66-495f-bfde-4488936a488d"),
@@ -112,7 +112,7 @@ namespace CAP.Data.Migrations
                             tp_email = "test1_taxpayer@test.com",
                             tp_employees_num = 30,
                             tp_name = "test1_mükellef_ismi",
-                            tp_opening_date = new DateTime(2023, 10, 15, 17, 6, 32, 352, DateTimeKind.Local).AddTicks(190),
+                            tp_opening_date = new DateTime(2023, 10, 19, 0, 25, 36, 918, DateTimeKind.Local).AddTicks(4701),
                             tp_phone = "+901112223301",
                             tp_tax_office = "Test1_Vergi_Dairesi"
                         });
@@ -167,10 +167,10 @@ namespace CAP.Data.Migrations
                     b.HasData(
                         new
                         {
-                            ID = new Guid("cbc8df17-3577-4119-a430-ad82741b69c7"),
+                            ID = new Guid("6a2fca7d-dd3c-48c0-97ff-56bc2b35218b"),
                             STATUSS = true,
                             u_address = "Test1 Mah. Test1 Sok. No:1 Daire:1 TEST_ilçe/TEST_il",
-                            u_date = new DateTime(2023, 10, 15, 17, 6, 32, 352, DateTimeKind.Local).AddTicks(290),
+                            u_date = new DateTime(2023, 10, 19, 0, 25, 36, 918, DateTimeKind.Local).AddTicks(4801),
                             u_department = "Test1",
                             u_email = "test1_mail@test_mail.com",
                             u_name = "Test1_Name_Surname",

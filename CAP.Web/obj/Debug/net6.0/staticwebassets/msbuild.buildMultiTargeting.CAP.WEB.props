@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../build/CAP.Web.props" />
+  <Import Project="..\build\CAP.WEB.props" />
 </Project>

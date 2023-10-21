@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CAP.Data.Migrations
 {
-    public partial class CreateInitial : Migration
+    public partial class Initial1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -48,8 +48,8 @@ namespace CAP.Data.Migrations
                     ID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     tp_name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     tp_company_name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    VKN = table.Column<int>(type: "int", nullable: false),
-                    tp_tax_office = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    VKN = table.Column<long>(type: "bigint", maxLength: 11, nullable: false),
+                    tp_tax_office = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     tp_address_id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     tp_addressID = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     tp_phone = table.Column<string>(type: "nvarchar(13)", maxLength: 13, nullable: true),
@@ -67,6 +67,21 @@ namespace CAP.Data.Migrations
                         principalTable: "ADDRESSES",
                         principalColumn: "ID");
                 });
+
+            migrationBuilder.InsertData(
+                table: "ADDRESSES",
+                columns: new[] { "ID", "STATUSS", "ad_address" },
+                values: new object[] { new Guid("c12cef77-cb66-495f-bfde-4488936a488d"), true, "Test1 Mah. Test1 Sok. No 1 Daire 1 Test1/TEST1" });
+
+            migrationBuilder.InsertData(
+                table: "TAXPAYERS",
+                columns: new[] { "ID", "STATUSS", "VKN", "tp_addressID", "tp_address_id", "tp_company_name", "tp_email", "tp_employees_num", "tp_name", "tp_opening_date", "tp_phone", "tp_tax_office" },
+                values: new object[] { new Guid("7081cc4a-53fc-47ff-8d5b-c74a75bee795"), true, 11111111111L, null, new Guid("c12cef77-cb66-495f-bfde-4488936a488d"), "test1_firma_adı", "test1_taxpayer@test.com", 30, "test1_mükellef_ismi", new DateTime(2023, 10, 19, 0, 25, 36, 918, DateTimeKind.Local).AddTicks(4701), "+901112223301", "Test1_Vergi_Dairesi" });
+
+            migrationBuilder.InsertData(
+                table: "USERs",
+                columns: new[] { "ID", "STATUSS", "u_address", "u_date", "u_department", "u_email", "u_name", "u_password", "u_phone" },
+                values: new object[] { new Guid("6a2fca7d-dd3c-48c0-97ff-56bc2b35218b"), true, "Test1 Mah. Test1 Sok. No:1 Daire:1 TEST_ilçe/TEST_il", new DateTime(2023, 10, 19, 0, 25, 36, 918, DateTimeKind.Local).AddTicks(4801), "Test1", "test1_mail@test_mail.com", "Test1_Name_Surname", "test123", "+901112223301" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_TAXPAYERS_tp_addressID",

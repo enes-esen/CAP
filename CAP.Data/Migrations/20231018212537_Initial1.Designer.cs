@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CAP.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20231014202323_CreateInitial")]
-    partial class CreateInitial
+    [Migration("20231018212537_Initial1")]
+    partial class Initial1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -39,6 +39,14 @@ namespace CAP.Data.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("ADDRESSES");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = new Guid("c12cef77-cb66-495f-bfde-4488936a488d"),
+                            STATUSS = true,
+                            ad_address = "Test1 Mah. Test1 Sok. No 1 Daire 1 Test1/TEST1"
+                        });
                 });
 
             modelBuilder.Entity("CAP.Entity.Entities.TAXPAYER", b =>
@@ -50,8 +58,9 @@ namespace CAP.Data.Migrations
                     b.Property<bool>("STATUSS")
                         .HasColumnType("bit");
 
-                    b.Property<int>("VKN")
-                        .HasColumnType("int");
+                    b.Property<long>("VKN")
+                        .HasMaxLength(11)
+                        .HasColumnType("bigint");
 
                     b.Property<Guid?>("tp_addressID")
                         .HasColumnType("uniqueidentifier");
@@ -84,13 +93,31 @@ namespace CAP.Data.Migrations
                         .HasColumnType("nvarchar(13)");
 
                     b.Property<string>("tp_tax_office")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("ID");
 
                     b.HasIndex("tp_addressID");
 
                     b.ToTable("TAXPAYERS");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = new Guid("7081cc4a-53fc-47ff-8d5b-c74a75bee795"),
+                            STATUSS = true,
+                            VKN = 11111111111L,
+                            tp_address_id = new Guid("c12cef77-cb66-495f-bfde-4488936a488d"),
+                            tp_company_name = "test1_firma_adı",
+                            tp_email = "test1_taxpayer@test.com",
+                            tp_employees_num = 30,
+                            tp_name = "test1_mükellef_ismi",
+                            tp_opening_date = new DateTime(2023, 10, 19, 0, 25, 36, 918, DateTimeKind.Local).AddTicks(4701),
+                            tp_phone = "+901112223301",
+                            tp_tax_office = "Test1_Vergi_Dairesi"
+                        });
                 });
 
             modelBuilder.Entity("CAP.Entity.Entities.USERS", b =>
@@ -138,6 +165,20 @@ namespace CAP.Data.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("USERs");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = new Guid("6a2fca7d-dd3c-48c0-97ff-56bc2b35218b"),
+                            STATUSS = true,
+                            u_address = "Test1 Mah. Test1 Sok. No:1 Daire:1 TEST_ilçe/TEST_il",
+                            u_date = new DateTime(2023, 10, 19, 0, 25, 36, 918, DateTimeKind.Local).AddTicks(4801),
+                            u_department = "Test1",
+                            u_email = "test1_mail@test_mail.com",
+                            u_name = "Test1_Name_Surname",
+                            u_password = "test123",
+                            u_phone = "+901112223301"
+                        });
                 });
 
             modelBuilder.Entity("CAP.Entity.Entities.TAXPAYER", b =>

@@ -10,3 +10,14 @@
 /Users/enesesen/Desktop/CAP/CAP.Service/obj/Debug/net6.0/refint/CAP.Service.dll
 /Users/enesesen/Desktop/CAP/CAP.Service/obj/Debug/net6.0/CAP.Service.pdb
 /Users/enesesen/Desktop/CAP/CAP.Service/obj/Debug/net6.0/ref/CAP.Service.dll
+C:\Users\Enes\Desktop\PROJECTS\CAP\CAP.Service\bin\Debug\net6.0\CAP.Service.deps.json
+C:\Users\Enes\Desktop\PROJECTS\CAP\CAP.Service\bin\Debug\net6.0\CAP.Service.dll
+C:\Users\Enes\Desktop\PROJECTS\CAP\CAP.Service\bin\Debug\net6.0\CAP.Service.pdb
+C:\Users\Enes\Desktop\PROJECTS\CAP\CAP.Service\obj\Debug\net6.0\CAP.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Enes\Desktop\PROJECTS\CAP\CAP.Service\obj\Debug\net6.0\CAP.Service.AssemblyInfoInputs.cache
+C:\Users\Enes\Desktop\PROJECTS\CAP\CAP.Service\obj\Debug\net6.0\CAP.Service.AssemblyInfo.cs
+C:\Users\Enes\Desktop\PROJECTS\CAP\CAP.Service\obj\Debug\net6.0\CAP.Service.csproj.CoreCompileInputs.cache
+C:\Users\Enes\Desktop\PROJECTS\CAP\CAP.Service\obj\Debug\net6.0\CAP.Service.dll
+C:\Users\Enes\Desktop\PROJECTS\CAP\CAP.Service\obj\Debug\net6.0\refint\CAP.Service.dll
+C:\Users\Enes\Desktop\PROJECTS\CAP\CAP.Service\obj\Debug\net6.0\CAP.Service.pdb
+C:\Users\Enes\Desktop\PROJECTS\CAP\CAP.Service\obj\Debug\net6.0\ref\CAP.Service.dll
