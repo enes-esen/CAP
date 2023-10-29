@@ -32,8 +32,6 @@ namespace CAP.Data.Mappings
                 u_date = DateTime.Now,
                 STATUSS = true
             });
-
-
         }
     }
 }

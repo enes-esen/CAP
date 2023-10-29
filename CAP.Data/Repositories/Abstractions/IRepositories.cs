@@ -15,13 +15,20 @@ namespace CAP.Data.Repositories.Abstractions
         Task<List<T>> GetAllAsync(Expression<Func<T, bool>> predicate = null, params Expression<Func<T, object>>[] includeProperties);
 
         //Tek bir veri dönmesi için aşağıdaki işlem yapılır.
-        Task<T> GetAsync(Expression<Func<T, bool>> predicate = null, params Expression<Func<T, object>>[] includeProperties);
+        Task<T> GetAsync(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includeProperties);
 
         // 
         Task<T> GetByGuidAsync(Guid id);
         Task<T> UpdateAsync(T entity);
-        Task<T> DeleteAsync(T entity);
-        Task<T> HardDeleteAsync();
+        Task DeleteAsync(T entity);
+        Task<bool> AnyAsync(Expression<Func<T, bool>> predicate);
+
+        //Tablonun içinde kaç adet nesne olduğunu belirtmek için.
+        //Mesela kaç tane müşteri var.
+        Task<int> CountAsync(Expression<Func<T, bool>> predicate = null);
+
+        // Yukarıdaki eklemelerden sonra Repository'nin somut sınıfına geçilir.
+        // Eklediğimiz alanları somut sınıfta implemente etmemiz gerekmektedir.
+
     }
 }
-// https://www.youtube.com/watch?v=Yn4TaQ3ws_M&list=PLrSCwxkucNmxFrrAsGm14Z-5Cu52MKrNr&index=14&t=639s

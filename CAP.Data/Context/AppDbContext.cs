@@ -11,8 +11,7 @@ namespace CAP.Data.Context
 
         public AppDbContext(DbContextOptions<AppDbContext> options)
             : base(options)
-        {
-        }
+        {}
 
         //Tabloların ismini burada belirleriz.
         public DbSet<USERS> USERs { get; set; }
@@ -36,7 +35,6 @@ namespace CAP.Data.Context
             // Aşağıdaki kodda kolonun boyutu değiştirildi.
             //modelBuilder.Entity<USERS>().Property(x => x.u_department).HasMaxLength(150);
         }
-
     }
 }
 
