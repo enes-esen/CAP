@@ -14,7 +14,7 @@ namespace CAP.Data.Repositories.Abstractions
 
         Task<List<T>> GetAllAsync(Expression<Func<T, bool>> predicate = null, params Expression<Func<T, object>>[] includeProperties);
 
-        //Tek bir veri dönmesi için aşağıdaki işlem yapılır.
+        //  Tek bir veri dönmesi için aşağıdaki işlem yapılır.
         Task<T> GetAsync(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includeProperties);
 
         // 
